@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>Student Form </title>
+    </head>
+    <body>
+        <fieldset>
+            <legend align="center">Student Registration Form</legend>
+        
+        <form action="post">
+            <div>
+                <label for="firstname">First Name: </label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname">                                     <!--id is for identification of the name   name is for the name of the specific element  placeholder is for the specification of text in the textbased input  -->
+            </div>
+            <br>
+            <div>
+                <label for="middlename">Middle Name: </label>
+                <input type="text" id="middletname" name="middlename" placeholder="Enter your middlename">                                                                                                 <!---->
+            </div>
+            <br>
+            <div>
+                <label for="lastname">Last Name: </label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname">                                                                                                 <!---->
+            </div>
+            <br>
+            <div>
+                <input type="radio" id="malegender" value="male" name="gender">                                                     <!--name = gender is grouping all the radio buttons together value = male or female is for the value that will be submitted to the databas ewhen the radio button is clicked id=malegenderor femalegender is used for providing a unique identifier for input element and for linking it with the label-->
+                <label for="malegender">Male</label>
+                <input type="radio" id="femalegender" value="female" name="gender">
+                <label for="femalegender">Female</label>
+            </div>
+            <br>
+            <div>
+                <label for="address">Address: </label>
+                <textarea id="address" name="address" placeholder="Enter your address" rows="7" cols="100"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="phone no">Phone No.: </label>
+                <input type="number" id="phone no" name="phone no" placeholder="Enter your phone no.">
+            </div>
+            <br>
+            <div>
+                <label for="pincode">Pincode: </label>
+                <input type="number" id="pincode" name="pincode" placeholder="Enter your pincode">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email Id: </label>
+                <input type="email" id="email" name="email" placeholder="Enter your email id here" >
+            </div>
+            <br>
+            <div>
+                <span>Hobbies: </span>
+                <input type="checkbox" name="Hobbies" id="Singing">                                                                         <!-- span is to group inline elements and apply styles or scripting. <input type="checkbox">:-->
+                <label for="Singing">Singing</label>                                                                                                       <!-- Purpose: This tag creates a checkbox input, allowing users to select one or more options.-->
+                <input type="checkbox" name="Hobbies" id="Dancing">
+                <label for="Dancing">Dancing</label> 
+                <input type="checkbox" name="Hobbies" id="Writing">
+                <label for="Writing">Writing</label> 
+                <input type="checkbox" name="Hobbies" id="Reading">
+                <label for="Reading">Reading</label> 
+                <input type="checkbox" name="Hobbies" id="Drawing">
+                <label for="Drawing">Drawing</label> 
+                <input type="checkbox" name="Hobbies" id="Painting">
+                <label for="Painting">Painting</label> 
+                <input type="checkbox" name="Hobbies" id="Playing">
+                <label for="Playing">Playing</label> 
+                <input type="checkbox" name="Hobbies" id="Others">
+                <label for="Others">Others</label>                                                                                                                         <!--id="Singing": Unique identifiers for each checkbox, used to link them to their respective labels.-->
+            </div>
+            <br>
+            <div>
+                <label for="City">City</label>
+                <select name="City" id="City">
+                    <option value="Vadodara">Vadadora</option>
+                    <option value="Anand">Anand</option>
+                    <option value="Vasad">Vasad</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Ahemdabad">Ahemdabad</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Guawahti">Guawahti</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Roorkee">Roorkee</option>
+                    <option value="Margoa">Margoa</option>
+                    <option value="New York">New York</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="Toronto">Toronto</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="State">State</label>
+                <select name="State" id="State">
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Canada">Ontario</option>
+                    <option value="USA"></option>
+                    <option value="Uttarakhand">New York</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="Country">Country</label>
+                <select name="Country" id="Country">
+                    <option value="Vadodara">Inadia</option>
+                    <option value="Vadodara">Canada</option>
+                    <option value="Vadodara">Usa</option>
+                </select>
+            </div>
+            <br>
+            <div align="center">
+                <input type="button" id="submit" value="submit"  >  
+            </div>
+        </fieldset>
+        </form>
+    </body>
+</html>
